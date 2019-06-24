@@ -15,7 +15,7 @@
 //reponse attendue dans codewar
 
 String.prototype.toJadenCase = function () {
-  return this.split("-").map(word =>{
+  return this.split(" ").map(word =>{
    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()  
 }).join(" ")
 };
