@@ -18,12 +18,12 @@ function validPhoneNumber(phoneNumber){
   
   /* 
   legende
-  ^ : debut chaine
+  ^ : debut chaine,en début d'expression, il permet de limiter la recherche au départ du texte.
   \ : echapper un metacaractere
   [0-9] : tous les chiffres de 0 à 9
   {3} : nombre max de caracteres acceptes
   \s : Trouve un caractère blanc
-  $ : fin de chaine 
+  $ : fin de chaine, en fin d'expression, il permet de limiter la recherche à la fin du texte. 
   RegExp.prototype.test() : La méthode test() vérifie s'il y a une correspondance entre un texte 
   et une expression rationnelle. 
   Elle retourne true en cas de succès et false dans le cas contraire.
